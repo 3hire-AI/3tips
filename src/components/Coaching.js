@@ -63,7 +63,7 @@ function Coaching() {
         <div className="plan-cards">
           <div className="plan-card">
             <h3>Career Accelerator</h3>
-            <p className="plan-price">$499 upfront + 4% annual pay</p>
+            <p className="plan-price">$999 upfront + 4% annual pay</p>
             <ul>
               <li>For ambitious professionals ready to level up</li>
               <li>3 months intensive support</li>
