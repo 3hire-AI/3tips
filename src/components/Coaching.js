@@ -1,12 +1,10 @@
 // src/components/Coaching.js
 import React, { useState, useEffect } from "react";
-import CoachingModal from "./CoachingModal";
 import CareerAcceleratorModal from "./CareerAcceleratorModal";
 import IndustryPivotModal from "./IndustryPivotModal";
 import "./Coaching.css";
 
 function Coaching() {
-  const [showCoachingModal, setShowCoachingModal] = useState(false);
   const [showCareerAcceleratorModal, setShowCareerAcceleratorModal] = useState(false);
   const [showIndustryPivotModal, setShowIndustryPivotModal] = useState(false);
 
@@ -26,14 +24,6 @@ function Coaching() {
     };
   }, []);
 
-  const handleOpenCoachingModal = () => {
-    setShowCoachingModal(true);
-  };
-  
-  const handleCloseCoachingModal = () => {
-    setShowCoachingModal(false);
-  };
-  
   const handleOpenCareerAcceleratorModal = () => {
     setShowCareerAcceleratorModal(true);
   };
@@ -52,7 +42,6 @@ function Coaching() {
 
   return (
     <div className="coaching-container">
-      {showCoachingModal && <CoachingModal onClose={handleCloseCoachingModal} />}
       {showCareerAcceleratorModal && <CareerAcceleratorModal onClose={handleCloseCareerAcceleratorModal} />}
       {showIndustryPivotModal && <IndustryPivotModal onClose={handleCloseIndustryPivotModal} />}
       
@@ -96,20 +85,25 @@ function Coaching() {
           </div>
           
           <div className="plan-card">
-            <h3>1-1 Coaching</h3>
-            <p className="plan-price">Personalized guidance</p>
+            <h3>Executive Coaching</h3>
+            <p className="plan-price">$5999/year</p>
             <ul>
-              <li>For new grads & career explorers</li>
-              <li>Customized to your specific needs</li>
-              <li>Career advancement strategies</li>
-              <li>Personal development</li>
-              <li>Communication improvement</li>
-              <li>Leadership development</li>
-              <li>Flexible scheduling</li>
+              <li>For mid-career professionals climbing higher</li>
+              <li>One year minimum commitment</li>
+              <li>One session per month (12 sessions)</li>
+              <li>Emergent support in critical situations</li>
+              <li>Work-life balance optimization</li>
+              <li>Leadership & communication skills</li>
+              <li>Business acumen & networking</li>
             </ul>
-            <button onClick={handleOpenCoachingModal} className="plan-button">
-              Book a Session
-            </button>
+            <a
+              href="https://calendly.com/smiqua-zhou/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="plan-button"
+            >
+              Book Executive Coaching
+            </a>
           </div>
         </div>
       </div>
