@@ -7,16 +7,16 @@ function IndustryPivotModal({ onClose }) {
     <div className="industry-pivot-modal-overlay">
       <div className="industry-pivot-modal">
         <div className="industry-pivot-modal-header">
-          <h2>Industry Pivot Pro Program</h2>
+          <h2>Industry Pivot Program</h2>
           <button className="close-button" onClick={onClose}>&times;</button>
         </div>
-        
+
         <div className="industry-pivot-content">
-          <p>Transform your career with our comprehensive 6-month Industry Pivot Pro Program. Perfect for experienced professionals switching industries or career functions.</p>
-          
+          <p>Transform your career with our comprehensive 6-month Industry Pivot Program. Perfect for experienced professionals switching industries or career functions.</p>
+
           <div className="payment-option">
             <h3>Program Details</h3>
-            <p className="payment-id">$1999 upfront + 3% of new job's annual base pay</p>
+            <p className="payment-id">$2999 upfront + 3% of new job's annual base pay</p>
             <div className="qr-container">
               <img 
                 src="/images/Pivot Pro.jpg" 

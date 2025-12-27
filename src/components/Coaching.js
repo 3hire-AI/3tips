@@ -51,26 +51,27 @@ function Coaching() {
       <div className="coaching-plans">
         <div className="plan-cards">
           <div className="plan-card">
-            <h3>Career Accelerator</h3>
-            <p className="plan-price">$999 upfront + 4% annual pay</p>
+            <h3>Layoff Support</h3>
+            <p className="plan-price">$1999 upfront + 4% annual pay</p>
             <ul>
-              <li>For ambitious professionals ready to level up</li>
+              <li>For professionals who are laid off</li>
+              <li>Get jobs faster with expert guidance</li>
               <li>3 months intensive support</li>
-              <li>Leadership skills development</li>
-              <li>Performance optimization</li>
-              <li>Promotion strategy</li>
+              <li>Resume improvement</li>
+              <li>Market repositioning</li>
+              <li>Opportunity analysis</li>
+              <li>Interview preparation</li>
               <li>Salary negotiation</li>
-              <li>Target: Mid-career professionals</li>
             </ul>
             <button onClick={handleOpenCareerAcceleratorModal} className="plan-button">
-              Get Started
+              Get Support
             </button>
           </div>
-          
+
           <div className="plan-card featured">
             <span className="featured-badge">Most Popular</span>
-            <h3>Industry Pivot Pro</h3>
-            <p className="plan-price">$1999 upfront + 3% annual pay</p>
+            <h3>Industry Pivot</h3>
+            <p className="plan-price">$2999 upfront + 3% annual pay</p>
             <ul>
               <li>For professionals changing industries</li>
               <li>6 months comprehensive transformation</li>
@@ -80,10 +81,10 @@ function Coaching() {
               <li>Extension: $299/month after 6 months</li>
             </ul>
             <button onClick={handleOpenIndustryPivotModal} className="plan-button">
-              Start Your Pivot
+              Start Pivot
             </button>
           </div>
-          
+
           <div className="plan-card">
             <h3>Executive Coaching</h3>
             <p className="plan-price">$5999/year</p>
@@ -102,7 +103,7 @@ function Coaching() {
               rel="noopener noreferrer"
               className="plan-button"
             >
-              Book Executive Coaching
+              Book Coaching
             </a>
           </div>
         </div>
