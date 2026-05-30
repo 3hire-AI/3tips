@@ -55,6 +55,14 @@ function Home() {
         <div className="hero-buttons">
           <Link to="/deep-match" className="btn btn-hiring">Start HiringBar</Link>
           <Link to="/coaching" className="btn btn-coaching">Start CareerGym</Link>
+          <a
+            href="https://pgi.3hire.ai"
+            className="btn btn-assessment"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Career Assessment
+          </a>
         </div>
       </div>
     </div>

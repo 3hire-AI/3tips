@@ -166,3 +166,15 @@
   transform: translateY(-5px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
 }
+
+.btn-assessment {
+  background-color: #6f42c1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.btn-assessment:hover {
+  background-color: #59359a;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+}
