@@ -24,7 +24,7 @@ function App() {
             </Link>
             <ul className="nav-links">
               <li><Link to="/coaching">CareerGym</Link></li>
-              <li><Link to="/deep-match">HiringBar</Link></li>
+              <li><a href="https://candidates.3hire.ai/login" target="_blank" rel="noopener noreferrer">HiringBar</a></li>
               <li><Link to="/success-stories">Stories</Link></li>
               <li><Link to="/about">About</Link></li>
             </ul>
