@@ -75,17 +75,12 @@ function Home() {
             engines; this section is what Google actually reads and ranks. */}
         <div className="home-intro">
           <p>
-            3Hire is a tech recruiting company built on one belief: technology
-            should empower kindness. Our AI hiring platform sources candidates
-            from LinkedIn, deep-matches them to your roles, and keeps hiring
-            happy and honest for everyone at the table.
+            Technology that empowers kindness: AI recruiting that sources from
+            LinkedIn and deep-matches candidates to your roles.
           </p>
           <p>
-            Hiring managers start at the HiringBar — AI-powered technical
-            recruiting for startup hiring and hard-to-fill engineering roles,
-            including bilingual and Mandarin-speaking engineers. Candidates
-            train at the CareerGym with expert career coaching and the PGI
-            career assessment.
+            HiringBar — tech hiring, from startups to Mandarin-speaking
+            engineers. CareerGym — career coaching and the PGI assessment.
           </p>
         </div>
       </div>
