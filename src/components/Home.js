@@ -71,14 +71,6 @@ function Home() {
             Career Assessment
           </a>
         </div>
-        {/* Crawlable intro copy — the SPA renders almost no text for search
-            engines; this section is what Google actually reads and ranks. */}
-        <div className="home-intro">
-          <p>
-            Technology that empowers kindness — AI recruiting for happy,
-            honest tech hiring.
-          </p>
-        </div>
       </div>
     </div>
   );
