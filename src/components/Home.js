@@ -71,6 +71,23 @@ function Home() {
             Career Assessment
           </a>
         </div>
+        {/* Crawlable intro copy — the SPA renders almost no text for search
+            engines; this section is what Google actually reads and ranks. */}
+        <div className="home-intro">
+          <p>
+            3Hire is a tech recruiting company built on one belief: technology
+            should empower kindness. Our AI hiring platform sources candidates
+            from LinkedIn, deep-matches them to your roles, and keeps hiring
+            happy and honest for everyone at the table.
+          </p>
+          <p>
+            Hiring managers start at the HiringBar — AI-powered technical
+            recruiting for startup hiring and hard-to-fill engineering roles,
+            including bilingual and Mandarin-speaking engineers. Candidates
+            train at the CareerGym with expert career coaching and the PGI
+            career assessment.
+          </p>
+        </div>
       </div>
     </div>
   );

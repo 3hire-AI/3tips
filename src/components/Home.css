@@ -178,3 +178,36 @@
   transform: translateY(-5px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
 }
+
+/* Crawlable intro copy below the hero buttons — subtle translucent card so
+   the SEO text doesn't fight the hero. */
+.home-intro {
+  margin: 2.5rem auto 0;
+  max-width: 640px;
+  padding: 1.25rem 1.5rem;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 12px;
+  backdrop-filter: blur(2px);
+}
+
+.home-intro p {
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0 0 0.75rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.home-intro p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .home-intro {
+    margin-top: 1.5rem;
+    padding: 1rem 1.1rem;
+  }
+  .home-intro p {
+    font-size: 0.85rem;
+  }
+}
