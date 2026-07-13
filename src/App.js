@@ -69,7 +69,7 @@ function App() {
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; {new Date().getFullYear()} 3Hire. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} 3Hire &middot; Happy &amp; Honest Hiring</p>
           </div>
         </div>
       </footer>
