@@ -75,12 +75,8 @@ function Home() {
             engines; this section is what Google actually reads and ranks. */}
         <div className="home-intro">
           <p>
-            Technology that empowers kindness: AI recruiting that sources from
-            LinkedIn and deep-matches candidates to your roles.
-          </p>
-          <p>
-            HiringBar — tech hiring, from startups to Mandarin-speaking
-            engineers. CareerGym — career coaching and the PGI assessment.
+            Technology that empowers kindness — AI recruiting for happy,
+            honest tech hiring.
           </p>
         </div>
       </div>
