@@ -1,6 +1,6 @@
 import React from "react";
 
-function SpinningCoin({ durationMs = 5000 }) {
+function SpinningCoin({ durationMs = 10000 }) {
   return (
     <div
       className="spinning-coin"
