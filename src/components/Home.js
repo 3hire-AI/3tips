@@ -1,14 +1,14 @@
 // src/components/Home.js
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import SpinningCoin from "./SpinningCoin";
 import "./Home.css";
 
 function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
   
-  // Slideshow content - welcome messages to display one by one
+  // Supporting messages shown beneath the Happy & Honest Hiring mark.
   const slides = [
-    "Welcome to HiringBar & CareerGym! 🍻💪",
     "Where hiring feels less like an interview and more like a great conversation over drinks.",
     "Where candidates don't just search for jobs—they train, grow, and level up their careers.",
     "We're not your typical recruiting firm.",
@@ -46,10 +46,13 @@ function Home() {
   return (
     <div className="home-hero">
       <div className="hero-content">
-        <h1>{slides[0]}</h1>
+        <h1 className="visually-hidden">3Hire — Happy &amp; Honest Hiring</h1>
+        <div className="home-brand">
+          <SpinningCoin />
+        </div>
         <div className="slideshow-container">
           <p key={currentSlide} className="slide-text">
-            {currentSlide === 0 ? "" : slides[currentSlide]}
+            {slides[currentSlide]}
           </p>
         </div>
         <div className="hero-buttons">
@@ -59,16 +62,16 @@ function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Start HiringBar
+            Recruiting
           </a>
-          <Link to="/coaching" className="btn btn-coaching">Start CareerGym</Link>
+          <Link to="/coaching" className="btn btn-coaching">Coaching</Link>
           <a
             href="https://pgi.3hire.ai"
             className="btn btn-assessment"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Career Assessment
+            Assessment
           </a>
         </div>
       </div>
